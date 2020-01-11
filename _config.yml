@@ -1,0 +1,47 @@
+title: Blog
+email: your-email@example.com
+baseurl: "" 
+url: "" 
+github_username:  imsoo
+
+# Author
+author:
+  name:         imsoo
+  url:          https://imsoo.github.io
+ 
+# Build settings
+remote_theme: chesterhow/tale
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Permalinks
+permalink:    /:year-:month-:day/:title
+paginate:     5
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-remote-theme
+  
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
