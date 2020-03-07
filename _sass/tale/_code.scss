@@ -1,6 +1,6 @@
 pre,
 code {
-  font-family: $monospaced;
+  font-family: 'Nanum Gothic Coding', $monospaced;
 }
 
 code {
@@ -16,6 +16,7 @@ pre {
 }
 
 pre code {
+  letter-spacing: 1px;
   background-color: transparent;
   color: inherit;
   font-size: 100%;

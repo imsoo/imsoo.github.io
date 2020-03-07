@@ -1,14 +1,16 @@
 title: Blog
-email: your-email@example.com
 baseurl: "" 
 url: "" 
 github_username:  imsoo
+
+# Google Analytics
+google_analytics: UA-159940371-1
 
 # Author
 author:
   name:         imsoo
   url:          https://imsoo.github.io
- 
+  
 # Build settings
 remote_theme: chesterhow/tale
 markdown:       kramdown
@@ -22,7 +24,7 @@ sass:
 
 # Permalinks
 permalink:    /:year-:month-:day/:title
-paginate:     5
+paginate:     7
 
 # Gems
 plugins:
@@ -33,7 +35,7 @@ plugins:
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
-
+disqus: imsoo
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
